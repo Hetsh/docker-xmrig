@@ -1,7 +1,5 @@
 FROM amd64/alpine:20220328
-RUN echo "http://dl-5.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
-    apk update && \
-    apk add --no-cache \
+RUN apk add --no-cache \
         xmrig=6.17.0-r0
 
 # App user
