@@ -1,4 +1,4 @@
-FROM amd64/alpine:20220328
+FROM amd64/alpine:20220715
 RUN apk add --no-cache \
         xmrig=6.18.0-r0
 
