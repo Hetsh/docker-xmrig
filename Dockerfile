@@ -1,6 +1,6 @@
 FROM amd64/alpine:20220715
 RUN apk add --no-cache \
-        xmrig=6.18.0-r1
+        xmrig=6.18.0-r2
 
 # App user
 ARG APP_USER="xmrig"
